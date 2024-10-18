@@ -8,6 +8,8 @@ spec:
   name: "agentic-papers"
   description: "Search curated papers on building Agentic AI"
   document_manager:
+    implementation: DocumentManager
+    name: "agentic-papers"
     loader:
       implementation: S3Loader
       bucket: agentic-papers
